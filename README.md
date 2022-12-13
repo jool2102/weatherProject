@@ -40,3 +40,7 @@ Now the messages are appearing and being stored in the container. Now just one e
 
 Moving on to the API point of view a simple python application is used to fetch data from openweather API to the same cosmosDB that stores my raspberry data.
 This was a more straight forward task since the database was set up from working with the raspberry and no base64 in the way.
+
+Below is an updated flowchart:
+![bild](https://user-images.githubusercontent.com/91683500/207371100-c0b7fcd4-c012-40c7-84b8-05101ac4cd7c.png)
+
