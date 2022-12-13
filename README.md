@@ -3,7 +3,7 @@
 
 My initial idea was spiked from the idea, that I have always felt that the weather report on your app in wintertime always read alot colder than how it really felt for me leaving my apartment. 
 
-And I very much think this is the truth. And there is probably endless facts online that gives me the answer directly, but for me it would be interesting to see and learn how much it actually differs on a cold day, compared to a place a little bit more rural still Stockholm.
+And I very much think this is the truth. And there is probably endless facts online that gives me the answer directly, but for me it would be interesting to see and learn how much it actually differs on a cold day, compared to a place closeby but not in the city centre.
 
 ### Components:
 
@@ -28,5 +28,9 @@ My goal with this project is to get more comfortable with everything revolving t
 ### Method:
 
 I first began by setting up a IOT-hub and configuring it with my emulator through Azure, this was a simple task and I could directly see that I had messages pouring in to my hub. 
+
 For me a valid next step was to visualize this data in some way just to see. I ended up picking a stream since it looked simple to work with and that it could directly pump it out to Power Bi. It was not that simple for me personally from the getgo since I firstly used Embedded Power Bi on the platform which drained my credits overnight :)
-After some extra work I managed to 
+
+After some extra work I managed to connect the raspberry to PowerBi visualization through a stream. Wish I saved a screenshot of it, but did not, and have since then removed that stream after trying new stuff.
+
+Next step was to somehow store all this incoming data, and for that CosmosDB sounded like the most interesting alternative.
