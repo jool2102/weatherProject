@@ -3,7 +3,7 @@
 
 My initial idea was spiked from the idea, that I have always felt that the weather report on your app in wintertime always read alot colder than how it really felt for me leaving my apartment. 
 
-And I very much think this is the truth. And there is probably endless facts online that gives me the answer directly, but for me it would be interesting to see and learn how much it actually differs on a cold day, compared to a place closeby but not in the city centre.
+And I very much think this is the truth. And there is probably endless facts online that gives me the answer directly, but for me it would be interesting to see and learn how much it actually differs on a cold day, compared to a place a bit more rural but still in the Stockholm area
 
 ### Components:
 
