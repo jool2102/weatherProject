@@ -5,7 +5,7 @@ i = 1
 while True:
     i = i+1
 
-    api_key = "02535417df1956f146800cc5c3292f45"
+    api_key = "api here"
     openweather_api = "http://api.openweathermap.org/data/2.5/weather?"
     cityName = "Stockholm"
 
@@ -31,3 +31,5 @@ while True:
     container.create_item(data)
     
     time.sleep(5)
+    
+    #I have edited out personal api keys so no accidents happens :)
