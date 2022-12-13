@@ -11,7 +11,7 @@ Initially I was going to use a physical Raspberry Pi with a temperature sensor t
 
 From the other point of view I am going to use the openweather API since I've heard good things about that service, that it is easier to work with rather than SMHI for example.
 
-With this two starting points I chose the Azure platform to handle and process all the data, Utilizing their features such as IOT-hub, Stream analytics, Cosmosdb and visualization with PowerBI.
+With this two starting points I chose the Azure platform to handle and process all the data, Utilizing their features such as IOT-hub to connect my device to cloud, Stream analytics for a quick and easy pipeline to visualization, Cosmosdb for storage and visualization with PowerBI.
 
 Below we see my initial idea of how this project would look with the help of a flowchart.
 ![bild](https://user-images.githubusercontent.com/91683500/207085572-59ba1aeb-cb95-4287-b446-5e4c2a6a725d.png)
