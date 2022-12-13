@@ -33,4 +33,10 @@ For me a valid next step was to visualize this data in some way just to see. I e
 
 After some extra work I managed to connect the raspberry to PowerBi visualization through a stream. Wish I saved a screenshot of it, but did not, and have since then removed that stream after trying new stuff.
 
-Next step was to somehow store all this incoming data, and for that CosmosDB sounded like the most interesting alternative.
+Next step was to somehow store all this incoming data, and for that CosmosDB sounded like the most interesting alternative. Here I was stuck for a while since the data did not seem to enter the DB even though I saw requests, after some research it became clear that message routing from the IOT hub was the best way and scrap the stream. 
+
+Now the messages are appearing and being stored in the container. Now just one easy step left, pushing the data to Power BI for visualization. Or so I thought. I'm currently stuck at this part since my temperature data is being encoded in base64 and have not been able to resolve this as of yet.
+(I have added some screenshots in a folder that shows my progress)
+
+Moving on to the API point of view a simple python application is used to fetch data from openweather API to the same cosmosDB that stores my raspberry data.
+This was a more straight forward task since the database was set up from working with the raspberry and no base64 in the way.
