@@ -15,9 +15,9 @@ while True:
     x = response.json()
     ## DIN cosmos info
     client = CosmosClient(
-        "https://tempproject.documents.azure.com:443/",
+        "cosmosDB url",
 
-        "4k1MchPsefWNETiCseMBSJufb1VvgmcGcySD7zOzApnpr6s4OYcLSQjJ3Qv6SBxWnYmraDgnGoKFACDbV9Rljg=="
+        "Api key for cosmosdb"
     )
 
     data = x
