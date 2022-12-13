@@ -42,5 +42,6 @@ Moving on to the API point of view a simple python application is used to fetch 
 This was a more straight forward task since the database was set up from working with the raspberry and no base64 in the way.
 
 Below is an updated flowchart:
-![bild](https://user-images.githubusercontent.com/91683500/207371100-c0b7fcd4-c012-40c7-84b8-05101ac4cd7c.png)
+![bild](https://user-images.githubusercontent.com/91683500/207371462-3fc571f7-5408-4275-9881-1658f3dcdf73.png)
+
 
