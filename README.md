@@ -49,7 +49,7 @@ In hindsight I surely did not take enough security procautions, which is somethi
 
 Using updated protocols and stronger passwords in general would help alot. Also researching the API you are going to use is a very good habit to have, there is a risk that the API is not updated to standards or have general security flaws. Iot units like the Raspberry pie is also prone to weaknesses since often the person working with it(in this case me) do not have the best knowledge in security within Iot units. After reading more about this I would take the necessary procautions accordingly.
 
-Thank you for reading, I had fun, mostly. atleast when things was working :)
+Thank you for reading, I had fun, mostly. Atleast when things was working :)
 
 Below is an updated flowchart of what it was supposed to look like:
 ![bild](https://user-images.githubusercontent.com/91683500/207371462-3fc571f7-5408-4275-9881-1658f3dcdf73.png)
