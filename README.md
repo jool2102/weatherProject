@@ -46,6 +46,7 @@ I wish that I would of cracked this, and be able to visualize live data from two
 ### Security suggestions:
 
 In hindsight I surely did not take enough security procautions, which is something that is not good enough if you would use this commercially, Security is a very big aspect to  to take in to account if you are working with this commercially. I would read and study every step I took more throughly, regarding what and how everything operates(etc how Iot hub really works, general weaknesses etc.)
+
 Using updated protocols and stronger passwords in general would help alot. Also researching the API you are going to use is a very good habit to have, there is a risk that the API is not updated to standards or have general security flaws. Iot units like the Raspberry pie is also prone to weaknesses since often the person working with it(in this case me) do not have the best knowledge in security within Iot units. After reading more about this I would take the necessary procautions accordingly.
 
 Thank you for reading, I had fun :)
