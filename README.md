@@ -3,11 +3,11 @@
 
 My initial idea was spiked from the idea, that I have always felt that the weather report on your app in wintertime always read alot colder than how it really felt for me leaving my apartment. 
 
-And I very much think this is the truth. And there is probably endless facts online that gives me the answer directly, but for me it would be interesting to see and learn how much it actually differs on a cold day, compared to a place a bit more rural but still in the Stockholm area
+And I very much think this is the truth. There is probably endless sources online that explains why and how, but for me it would be interesting to see and learn how much it actually differs on a cold day, compared to a place more rural but still in the Stockholm area.
 
 ### Components:
 
-Initially I was going to use a physical Raspberry Pi with a temperature sensor to read temperature at my place, but I could not get a hand on one so I will use an emulator instead. This will ofcourse make the temperature comparison useless but the projet will still function as intended.
+Initially I was going to use a physical Raspberry Pi with a temperature sensor to read temperature at my place, but I could not get a hand on one, so I will use an emulator instead. This will ofcourse make the temperature comparison useless but the project will still function as intended.
 
 From the other point of view I am going to use the openweather API since I've heard good things about that service, that it is easier to work with rather than SMHI for example.
 
@@ -23,7 +23,7 @@ An updated flowchart will be made when things are in its place.
 ### Goal:
 
 
-My goal with this project is to get more comfortable with everything revolving the Azure Cloud Services but also a funny bonus in knowing the temperature differences from a little more rural area in Stockholm compared to the innercity.
+My goal with this project is to get more comfortable with everything revolving the Azure Cloud Services but also a funny bonus in knowing the temperature differences from a little more rural area in Stockholm compared to the city centre.
 
 ### Method:
 
